@@ -1,0 +1,64 @@
+:root{
+  --mainColor:#ff206e;
+}
+.main-color{
+    color: var(--mainColor);
+}
+header{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-position: center center;
+}
+.caption p{
+    font-size: 20px;
+}
+.social-media i{
+    border: 1px solid #333;
+    padding: 9px;
+    border-radius: 50%;
+    transition: 1s;
+}
+.social-media i:hover{
+    color: var(--mainColor);
+    border: 1px solid #f1f1f1;
+}
+.title h2{
+    font-size: 70px;
+    color: #f1f1f1;
+    letter-spacing: 5px;
+}
+.title h3{
+    font-size: 40px;
+    top: 0; 
+     left: 50%;
+    transform: translate(-50%,50%);
+    letter-spacing: 5px;
+    font-weight: bold;
+}
+.services{
+    background-image: url(../images/dark_dot.jpg);
+}
+.services .title h2{
+    color: #222;
+}
+.services .title h3{
+    color: #fff;
+}
+.services i{
+    color: white;
+    /* font-size: 23px; */
+    background-color: black;
+    padding: 10px;
+    border-radius: 50%;
+    border: 2px solid white;
+    transition: 1s;
+}
+.services i:hover{
+   color: var(--mainColor);
+}
+.nav-tabs .nav-link{
+    color: black;
+}
+.nav-tabs .nav-link.active{
+    color: var(--mainColor);
+}
